@@ -1,0 +1,97 @@
+
+body{
+    font-family: "arial";
+    background-image: url("../images/wallpaper.jpg");
+}
+#header{
+    height: auto;
+    width: 100%;
+    background-color: wheat;
+    margin-top:10px;
+}
+
+#logo{
+    margin-left: 600px;
+    padding: 5px;
+}
+#logo img{
+     width:140px;
+     height:140px;
+}
+#desktop-menu{
+    background-color: wheat;
+    position: absolute;
+}
+
+#desktop-menu hover{
+    background-color: brown;
+}
+#desktop-menu li{
+    color: wheat;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+#banner-wrapper{
+    margin: 10px 0px 0px 50px;
+    border: 2px solid black;
+    width: 1250px;
+    height: 550px;
+    /*position: absolute;*/
+    padding: 5px 400px 15px 400px;
+}
+.center-align{
+    background-color: yellow;
+    border: 1px;
+    text-align: center;
+    padding: 5px 10px 5px 50px;
+}
+#p{
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+
+}
+.banner-text{
+    border: 2px solid black;
+    text-align: center;
+    background-color: white;
+}
+.span-banner{
+  text-shadow: blue;
+  font-family: serif;
+}
+.imgsection{
+  padding: 10px;
+  border-top: 20px;
+}
+.container{
+     background: url(../img/breakfast.jpg)top right no-repeat,
+  url(../img/lunch.jpg)middle no repeat,
+  url(../img/dinner2.jpg)top left no repeat,
+}
+.banner{
+  width: 100px;
+  height: 100px;
+}
+.banner2{
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/foodsBg.jpg");
+}
+.banner3{
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/subscribe.jpg");
+}
+.iframe1{
+  padding:20px;
+}
+footer{
+  padding: 1em;
+  color: white;
+  background-color: black;
+  clear: left;
+  text-align: left;
+  border: 2px;
+}
